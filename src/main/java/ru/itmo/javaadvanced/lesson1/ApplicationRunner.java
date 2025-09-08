@@ -11,7 +11,6 @@ public class ApplicationRunner {
 		ExampleDto exampleDto = new ExampleDto();
 		exampleDto.setId(1L);
 		System.out.println(exampleDto.getId());
-        System.out.println("base commit message");
 		SpringApplication.run(ApplicationRunner.class, args);
 	}
 
